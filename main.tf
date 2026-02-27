@@ -7,6 +7,6 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "GithubActions-EC2"
+    Name = "GithubActions-EC2-prod-env-application"
   }
 }
