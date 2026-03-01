@@ -9,7 +9,7 @@ on:
 jobs:
   terraform:
     name: Terraform CI/CD
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     env:
       AWS_REGION: us-east-1
